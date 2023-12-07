@@ -2,7 +2,7 @@ name: 'Views distance php'
 type: module
 description: 'Calcul la distance d''une adresse Civicrm'
 core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 package: 'Custom'
 dependencies:
   - views
