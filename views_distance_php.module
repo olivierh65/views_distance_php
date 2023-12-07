@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains views_distance_php.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function views_distance_php_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the views_distance_php module.
+    case 'help.page.views_distance_php':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Calcul la distance d&#039;&#039;une adresse Civicrm') . '</p>';
+      return $output;
+
+    default:
+  }
+}

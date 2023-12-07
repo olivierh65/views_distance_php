@@ -1,0 +1,15 @@
+views_distance_php.settings:
+  type: mapping
+  label: 'Views distance php settings'
+  mapping:
+    latitude:
+      type: float
+      label: 'Latitude du point de reference'
+    logitude:
+      type: float
+      label: 'Longitude du point de reference'
+    nom:
+      type: string
+      label: 'Nom du point de reference'
+    _core:
+      type: _core_config_info

@@ -1,0 +1,10 @@
+--- web/modules/custom/views_distance_php/views_distance_php.info.yml	2021-12-20 18:42:29.821569070 +0100
++++ custom/views_distance_php/views_distance_php.info.yml	2021-03-27 21:06:15.000000000 +0100
+@@ -2,7 +2,6 @@
+ type: module
+ description: 'Calcul la distance d''une adresse Civicrm'
+ core: 8.x
+-core_version_requirement: ^8 || ^9
+ package: 'Custom'
+ dependencies:
+   - views
